@@ -26,6 +26,6 @@ $ python3 image_viewer.py
 
 - python 3
 - Tkinter library
-- PIL library
+- PIL library (ImageTK and image)
 
 This is CS50 :)
