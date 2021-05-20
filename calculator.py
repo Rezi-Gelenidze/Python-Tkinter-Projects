@@ -16,11 +16,13 @@ def scan(input_text):
             return False
     return True
 
+
 def add_character(char):
     current = entry.get()
     entry.delete(0, END)
     entry.insert(0, current + char)
 
+    
 def calculate():
     expression = entry.get()
     entry.delete(0, END)
@@ -33,8 +35,6 @@ def calculate():
             entry.insert(0, result)
     else:
         entry.insert(0, "Invalid characters")
-
-
 
 
 #---defining widgets---
@@ -74,7 +74,6 @@ button_point = Button(root, text=".", padx=16, pady=15, bg='#132743', fg='white'
 
 # calculate (=) button
 button_equal = Button(root, text="=", padx=36, pady=15, bg='#132743', fg='white', command=calculate)
-
 
 
 #---adding widgets---
