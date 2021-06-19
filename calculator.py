@@ -76,7 +76,8 @@ button_point = Button(root, text=".", padx=16, pady=15, bg='#132743', fg='white'
 button_equal = Button(root, text="=", padx=36, pady=15, bg='#132743', fg='white', command=calculate)
 
 
-#---adding widgets---
+### adding widgets
+
 # input field
 entry.grid(row=0, column=0, columnspan=3, ipady = 8)
 
